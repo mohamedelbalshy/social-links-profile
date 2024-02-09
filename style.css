@@ -1,0 +1,78 @@
+@font-face
+{
+    font-family: inter;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100dvh;
+    background-color:  hsl(0, 0%, 8%);
+    font-family: inter, sans-serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.card {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 40px 40px;
+    width: 350px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%); 
+    outline: transparent;
+    border: none;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.name, .location {
+    margin: 8px 0;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.location {
+    font-size: 12px;
+    color: hsl(75, 94%, 57%);
+}
+.position {
+    margin: 20px 0;
+    font-size: 10px;
+}
